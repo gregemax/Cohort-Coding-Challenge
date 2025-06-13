@@ -1,0 +1,33 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+.form input, .form select {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+button {
+  margin-left: 0.3rem;
+  padding: 0.3rem 0.6rem;
+}
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+.stats, .filters {
+  margin: 1rem 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  background: #f0f0f0;
+  border-radius: 5px;
+}
